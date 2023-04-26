@@ -1,0 +1,136 @@
+.contacts {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 60px repeat(4, 40px);
+  grid-template-areas:
+    "name name name"
+    "job job photo"
+    "location location photo"
+    "telegram github photo"
+    "phone email photo";
+  gap: 5px;
+  align-items: center;
+  justify-items: start;
+}
+
+@media screen and (max-width: 950px) {
+  .contacts {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contacts {
+    grid-template-columns: 1.25fr 0.75fr;
+    grid-template-rows: 30px repeat(6, 20px);
+    grid-template-areas:
+    "name name"
+    "job photo"
+    "location photo"
+    "github photo"
+    "telegram photo"
+    "phone photo"
+    "email email";
+    gap: 10px;
+  }
+}
+
+.contacts__name {
+  grid-area: name;
+  font-size: 20px;
+  line-height: 23px;
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .contacts__name {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+.contacts__job {
+  grid-area: job;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .contacts__job {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.contacts__container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.contacts__container_location {
+  grid-area: location;
+}
+
+.contacts__container_telegram {
+  grid-area: telegram;
+}
+
+.contacts__container_github {
+  grid-area: github;
+}
+
+.contacts__container_phone {
+  grid-area: phone;
+}
+
+.contacts__container_email {
+  grid-area: email;
+}
+
+.contacts__logo {
+  width: 25px;
+  height: 25px;
+}
+
+@media screen and (max-width: 600px) {
+  .contacts__logo {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.contacts__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contacts__about {
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .contacts__about {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.contacts__photo {
+  width: 150px;
+  height: 150px;
+  align-self: start;
+  justify-self: center;
+}
+
+@media screen and (max-width: 600px) {
+  .contacts__photo {
+    width: 100px;
+    height: 100px;
+  }
+}
