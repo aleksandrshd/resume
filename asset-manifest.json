@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.c9cf7126.css",
+    "main.js": "/resume/static/js/main.cad8afee.js",
+    "static/js/787.dc9ee2bf.chunk.js": "/resume/static/js/787.dc9ee2bf.chunk.js",
+    "static/media/Inter-Black.woff": "/resume/static/media/Inter-Black.fd37f7e052bea1018058.woff",
+    "static/media/Inter-Regular.woff": "/resume/static/media/Inter-Regular.34ed58565339f4f3be40.woff",
+    "static/media/photo.jpeg": "/resume/static/media/photo.71f4c541e8e3f437be1c.jpeg",
+    "static/media/Inter-Black.woff2": "/resume/static/media/Inter-Black.141c7af6ed109b318513.woff2",
+    "static/media/Inter-Regular.woff2": "/resume/static/media/Inter-Regular.4c96ed73beaf6d1e6cc7.woff2",
+    "static/media/Inter-Medium.woff?": "/resume/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
+    "static/media/Inter-Medium.woff2": "/resume/static/media/Inter-Medium.293fd13dbca5a3e450ef.woff2",
+    "static/media/phone-light.svg": "/resume/static/media/phone-light.349d16e5bd1249a6794591b6f6526a8c.svg",
+    "static/media/phone-dark.svg": "/resume/static/media/phone-dark.d12a1f7b662236e9ababdea90312a275.svg",
+    "static/media/github-light.svg": "/resume/static/media/github-light.205490ac0f859efb61e82b8f0ed18e8c.svg",
+    "static/media/github-dark.svg": "/resume/static/media/github-dark.97cd11d3b95f1b678b38defb9b6aa547.svg",
+    "static/media/telegram-dark.svg": "/resume/static/media/telegram-dark.bcd51cddf7f7b10ec6f70435fe720f10.svg",
+    "static/media/telegram-light.svg": "/resume/static/media/telegram-light.c4775ddcba8ccc832873f5ba688ba0e2.svg",
+    "static/media/location-dark.svg": "/resume/static/media/location-dark.8e480d760e9efa55c9ab5503a5a744c8.svg",
+    "static/media/location-light.svg": "/resume/static/media/location-light.84178561d6d92769f1c228ffb3693abb.svg",
+    "static/media/email-light.svg": "/resume/static/media/email-light.5f808c14f9b0326fb03e2afc64ac0376.svg",
+    "static/media/email-dark.svg": "/resume/static/media/email-dark.596454f5f64d3de913d2bd5d203345aa.svg",
+    "index.html": "/resume/index.html",
+    "main.c9cf7126.css.map": "/resume/static/css/main.c9cf7126.css.map",
+    "main.cad8afee.js.map": "/resume/static/js/main.cad8afee.js.map",
+    "787.dc9ee2bf.chunk.js.map": "/resume/static/js/787.dc9ee2bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9cf7126.css",
+    "static/js/main.cad8afee.js"
+  ]
+}
