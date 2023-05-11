@@ -122,9 +122,10 @@
 }
 
 .contacts__photo {
+  grid-area: photo;
   width: 150px;
   height: 150px;
-  align-self: start;
+  align-self: center;
   justify-self: center;
 }
 

@@ -18,28 +18,32 @@ export default function Contacts() {
       <h1 className="contacts__name">АЛЕКСАНДР САВИЧЕВ</h1>
       <p className="contacts__job">Веб-разработчик</p>
       <div className="contacts__container contacts__container_location">
-        <img src={darkTheme? locationDark : locationLight} className="contacts__logo" alt="Иконка"/>
+        <img src={darkTheme ? locationDark : locationLight} className="contacts__logo" alt="Иконка"/>
         <p className="contacts__about">МО, Пушкино</p>
       </div>
       <div className="contacts__container contacts__container_telegram">
-        <img src={darkTheme? telegramDark : telegramLight} className="contacts__logo" alt="Иконка"/>
+        <img src={darkTheme ? telegramDark : telegramLight} className="contacts__logo" alt="Иконка"/>
         <a className="contacts__link" href="https://t.me/aleksandrshd">
           <p className="contacts__about">aleksandrshd</p>
         </a>
       </div>
       <div className="contacts__container contacts__container_github">
-        <img src={darkTheme? githubDark : githubLight} className="contacts__logo" alt="Иконка"/>
+        <img src={darkTheme ? githubDark : githubLight} className="contacts__logo" alt="Иконка"/>
         <a className="contacts__link" href="https://github.com/aleksandrshd">
           <p className="contacts__about">aleksandrshd</p>
         </a>
       </div>
       <div className="contacts__container contacts__container_phone">
-        <img src={darkTheme? phoneDark : phoneLight} className="contacts__logo" alt="Иконка"/>
-        <p className="contacts__about">+79164750811</p>
+        <img src={darkTheme ? phoneDark : phoneLight} className="contacts__logo" alt="Иконка"/>
+        <a className="contacts__link" href="tel:+79164750811">
+          <p className="contacts__about">+79164750811</p>
+        </a>
       </div>
       <div className="contacts__container contacts__container_email">
-        <img src={darkTheme? emailDark : emailLight} className="contacts__logo" alt="Иконка"/>
-        <p className="contacts__about">aleksandrs.hd@yandex.ru</p>
+        <img src={darkTheme ? emailDark : emailLight} className="contacts__logo" alt="Иконка"/>
+        <a className="contacts__link" href="mailto:aleksandrs.hd@yandex.ru">
+          <p className="contacts__about">aleksandrs.hd@yandex.ru</p>
+        </a>
       </div>
       <img src={photo} className="contacts__photo" alt="Фото"/>
     </div>
